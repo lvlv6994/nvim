@@ -10,7 +10,12 @@ return require 'packer'.startup(function()
     use 'kyazdani42/nvim-tree.lua'
     use 'kyazdani42/nvim-web-devicons'
     -- notify box
-    use 'rcarriga/nvim-notify'
+    use ({
+        'rcarriga/nvim-notify',
+        config = function ()
+            vim.notify = require("notify")
+        end
+    })
     use {'nvim-lualine/lualine.nvim',requires={'nvim-tree/nvim-web-devicons',opt = true}}
     -- use 'romgrk/barbar.nvim'
     use { 'nvim-telescope/telescope.nvim', requires = { { 'nvim-lua/plenary.nvim' } } }

@@ -38,7 +38,6 @@ vim.bo.softtabstop = 4
 vim.bo.buflisted = true
 vim.wo.cursorcolumn = false
 vim.go.cmdheight = 1
--- vim.notify = require("notify")
 vim.cmd [[ set clipboard+=unnamedplus ]]
 vim.cmd [[ set mouse=a ]]
 vim.cmd [[ set nowrap ]]

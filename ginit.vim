@@ -1,0 +1,12 @@
+luafile init.lua
+lua require('packer-config')
+lua require('colorschemes-config.nightfox')
+lua require('nvim-tree-config')
+lua require('treesitter-config')
+lua require('orgmode-config')
+lua require('lsp-config.language-servers')
+lua require('telescope-config')
+lua require('lualine-config')
+lua require('preview-config')
+lua require('settings')
+lua require('mappings')

@@ -41,6 +41,12 @@ map('n', 'F', '<cmd>FloatermToggle <CR>', opts)
 map('n', '<c-g>', '<cmd>FloatermNew --width=0.8 --height=0.8 lazygit<CR>', opts)
 map('t', '<esc>', '<C-\\><C-n>', opts)
 map('t', '<c-o>', '<C-\\><C-o>', opts)
+map('t', '<c-r>', '<C-\\><C-r>', opts)
+
+map('t', '<c-p>', '<up>', opts)
+map('t', '<c-n>', '<down>', opts)
+map('t', '<c-b>', '<left>', opts)
+map('t', '<c-f>', '<right>', opts)
 
 vim.cmd('inoremap <C-a> <home>')
 vim.cmd('inoremap <C-b> <left>')
@@ -55,6 +61,7 @@ vim.cmd('inoremap <M-d> <C-o>dw')
 vim.cmd('inoremap <M-f> <S-right>')
 vim.cmd('inoremap <M-b> <S-left>')
 vim.cmd('inoremap <M-w> <ESC>yypI')
+vim.cmd('nnoremap <M-w> yyp')
 -- comment the c-w , or c-h ,or c-u delete char forward
 
 vim.cmd('cnoremap <C-u> <C-e><C-u>')

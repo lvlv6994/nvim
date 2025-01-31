@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
+  ["blink.cmp"] = {
+    loaded = true,
+    path = "/Users/xm/.local/share/nvim/site/pack/packer/start/blink.cmp",
+    url = "https://github.com/saghen/blink.cmp"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -95,7 +100,7 @@ _G.packer_plugins = {
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["codecompanion.nvim"] = {
-    config = { "\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18codecompanion\frequire\0" },
+    config = { "\27LJ\2\n¬\1\0\0\5\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0005\4\3\0=\4\5\3=\3\a\2B\0\2\1K\0\1\0\14providers\1\0\1\14providers\0\vgemini\1\0\1\vgemini\0\1\0\1\fapi_key,AIzaSyAHjcD2ApEjtuGc8z2irZ7hmVh45UNaeJ0\nsetup\18codecompanion\frequire\0" },
     loaded = true,
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/codecompanion.nvim",
     url = "https://github.com/olimorris/codecompanion.nvim"
@@ -111,7 +116,7 @@ _G.packer_plugins = {
     url = "https://github.com/mattn/emmet-vim"
   },
   ["glow.nvim"] = {
-    config = { "\27LJ\2\nÚ\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\t\nwidth\3P\17height_ratio\4æÌ™³\6æÌ™ÿ\3\vheight\3d\16width_ratio\4æÌ™³\6æÌ™ÿ\3\npager\1\nstyle\15dark|light\vborder\vshadow\17install_path\17~/.local/bin\14glow_path\27/opt/homebrew/bin/glow\nsetup\tglow\frequire\0" },
+    config = { "\27LJ\2\nÚ\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\t\vheight\3d\nwidth\3P\17height_ratio\4æÌ™³\6æÌ™ÿ\3\16width_ratio\4æÌ™³\6æÌ™ÿ\3\npager\1\nstyle\15dark|light\vborder\vshadow\17install_path\17~/.local/bin\14glow_path\27/opt/homebrew/bin/glow\nsetup\tglow\frequire\0" },
     loaded = true,
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/glow.nvim",
     url = "https://github.com/ellisonleao/glow.nvim"
@@ -128,6 +133,17 @@ _G.packer_plugins = {
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/headlines.nvim",
     url = "https://github.com/lukas-reineke/headlines.nvim"
   },
+  ["hologram.nvim"] = {
+    loaded = true,
+    path = "/Users/xm/.local/share/nvim/site/pack/packer/start/hologram.nvim",
+    url = "https://github.com/edluffy/hologram.nvim"
+  },
+  ["image.nvim"] = {
+    config = { "\27LJ\2\nÒ\6\0\0\6\0\24\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\a\0005\4\4\0005\5\5\0=\5\6\4=\4\b\0035\4\t\0005\5\n\0=\5\6\4=\4\v\0035\4\f\0005\5\r\0=\5\6\4=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\3=\3\19\0025\3\20\0=\3\21\0025\3\22\0=\3\23\2B\0\2\1K\0\1\0\25hijack_file_patterns\1\a\0\0\n*.png\n*.jpg\v*.jpeg\n*.gif\v*.webp\v*.avif#window_overlap_clear_ft_ignore\1\6\0\0\rcmp_menu\rcmp_docs\17snacks_notif\15scrollview\20scrollview_sign\17integrations\bcss\1\0\1\fenabled\1\thtml\1\0\1\fenabled\1\ntypst\1\2\0\0\ntypst\1\0\2\fenabled\2\14filetypes\0\nneorg\1\2\0\0\tnorg\1\0\2\fenabled\2\14filetypes\0\rmarkdown\1\0\5\nneorg\0\rmarkdown\0\bcss\0\thtml\0\ntypst\0\14filetypes\1\3\0\0\rmarkdown\fvimwiki\1\0\6\fenabled\2\14filetypes\0\21floating_windows\1 only_render_image_at_cursor\1\27download_remote_images\2\25clear_in_insert_mode\1\1\0\t$tmux_show_only_in_active_window\1$editor_only_render_when_focused\1\17integrations\0\14processor\15magick_cli\fbackend\nkitty#window_overlap_clear_ft_ignore\0!window_overlap_clear_enabled\1!max_height_window_percentage\0032\25hijack_file_patterns\0\nsetup\nimage\frequire\0" },
+    loaded = true,
+    path = "/Users/xm/.local/share/nvim/site/pack/packer/start/image.nvim",
+    url = "https://github.com/3rd/image.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -139,7 +155,7 @@ _G.packer_plugins = {
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["notebook.nvim"] = {
-    config = { "\27LJ\2\n³\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\23virtual_text_style\1\0\2\vitalic\2\afg\14lightblue\1\0\4\15show_index\2\22insert_blank_line\2\23virtual_text_style\0\19show_cell_type\2\nsetup\rnotebook\frequire\0" },
+    config = { "\27LJ\2\n³\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\23virtual_text_style\1\0\2\afg\14lightblue\vitalic\2\1\0\4\19show_cell_type\2\15show_index\2\22insert_blank_line\2\23virtual_text_style\0\nsetup\rnotebook\frequire\0" },
     loaded = true,
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/notebook.nvim",
     url = "https://github.com/meatballs/notebook.nvim"
@@ -149,10 +165,21 @@ _G.packer_plugins = {
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/Users/xm/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/xm/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-notify"] = {
+    config = { "\27LJ\2\n2\0\0\4\0\3\0\0066\0\0\0006\1\2\0'\3\1\0B\1\2\2=\1\1\0K\0\1\0\frequire\vnotify\bvim\0" },
+    loaded = true,
+    path = "/Users/xm/.local/share/nvim/site/pack/packer/start/nvim-notify",
+    url = "https://github.com/rcarriga/nvim-notify"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -241,17 +268,13 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: orgmode
-time([[Config for orgmode]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\forgmode\frequire\0", "config", "orgmode")
-time([[Config for orgmode]], false)
 -- Config for: goto-preview
 time([[Config for goto-preview]], true)
 try_loadstring("\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17goto-preview\frequire\0", "config", "goto-preview")
 time([[Config for goto-preview]], false)
 -- Config for: codecompanion.nvim
 time([[Config for codecompanion.nvim]], true)
-try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18codecompanion\frequire\0", "config", "codecompanion.nvim")
+try_loadstring("\27LJ\2\n¬\1\0\0\5\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0005\4\3\0=\4\5\3=\3\a\2B\0\2\1K\0\1\0\14providers\1\0\1\14providers\0\vgemini\1\0\1\vgemini\0\1\0\1\fapi_key,AIzaSyAHjcD2ApEjtuGc8z2irZ7hmVh45UNaeJ0\nsetup\18codecompanion\frequire\0", "config", "codecompanion.nvim")
 time([[Config for codecompanion.nvim]], false)
 -- Config for: headlines.nvim
 time([[Config for headlines.nvim]], true)
@@ -259,12 +282,24 @@ try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K
 time([[Config for headlines.nvim]], false)
 -- Config for: glow.nvim
 time([[Config for glow.nvim]], true)
-try_loadstring("\27LJ\2\nÚ\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\t\nwidth\3P\17height_ratio\4æÌ™³\6æÌ™ÿ\3\vheight\3d\16width_ratio\4æÌ™³\6æÌ™ÿ\3\npager\1\nstyle\15dark|light\vborder\vshadow\17install_path\17~/.local/bin\14glow_path\27/opt/homebrew/bin/glow\nsetup\tglow\frequire\0", "config", "glow.nvim")
+try_loadstring("\27LJ\2\nÚ\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\t\vheight\3d\nwidth\3P\17height_ratio\4æÌ™³\6æÌ™ÿ\3\16width_ratio\4æÌ™³\6æÌ™ÿ\3\npager\1\nstyle\15dark|light\vborder\vshadow\17install_path\17~/.local/bin\14glow_path\27/opt/homebrew/bin/glow\nsetup\tglow\frequire\0", "config", "glow.nvim")
 time([[Config for glow.nvim]], false)
+-- Config for: nvim-notify
+time([[Config for nvim-notify]], true)
+try_loadstring("\27LJ\2\n2\0\0\4\0\3\0\0066\0\0\0006\1\2\0'\3\1\0B\1\2\2=\1\1\0K\0\1\0\frequire\vnotify\bvim\0", "config", "nvim-notify")
+time([[Config for nvim-notify]], false)
+-- Config for: orgmode
+time([[Config for orgmode]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\forgmode\frequire\0", "config", "orgmode")
+time([[Config for orgmode]], false)
 -- Config for: notebook.nvim
 time([[Config for notebook.nvim]], true)
-try_loadstring("\27LJ\2\n³\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\23virtual_text_style\1\0\2\vitalic\2\afg\14lightblue\1\0\4\15show_index\2\22insert_blank_line\2\23virtual_text_style\0\19show_cell_type\2\nsetup\rnotebook\frequire\0", "config", "notebook.nvim")
+try_loadstring("\27LJ\2\n³\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\23virtual_text_style\1\0\2\afg\14lightblue\vitalic\2\1\0\4\19show_cell_type\2\15show_index\2\22insert_blank_line\2\23virtual_text_style\0\nsetup\rnotebook\frequire\0", "config", "notebook.nvim")
 time([[Config for notebook.nvim]], false)
+-- Config for: image.nvim
+time([[Config for image.nvim]], true)
+try_loadstring("\27LJ\2\nÒ\6\0\0\6\0\24\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\a\0005\4\4\0005\5\5\0=\5\6\4=\4\b\0035\4\t\0005\5\n\0=\5\6\4=\4\v\0035\4\f\0005\5\r\0=\5\6\4=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\3=\3\19\0025\3\20\0=\3\21\0025\3\22\0=\3\23\2B\0\2\1K\0\1\0\25hijack_file_patterns\1\a\0\0\n*.png\n*.jpg\v*.jpeg\n*.gif\v*.webp\v*.avif#window_overlap_clear_ft_ignore\1\6\0\0\rcmp_menu\rcmp_docs\17snacks_notif\15scrollview\20scrollview_sign\17integrations\bcss\1\0\1\fenabled\1\thtml\1\0\1\fenabled\1\ntypst\1\2\0\0\ntypst\1\0\2\fenabled\2\14filetypes\0\nneorg\1\2\0\0\tnorg\1\0\2\fenabled\2\14filetypes\0\rmarkdown\1\0\5\nneorg\0\rmarkdown\0\bcss\0\thtml\0\ntypst\0\14filetypes\1\3\0\0\rmarkdown\fvimwiki\1\0\6\fenabled\2\14filetypes\0\21floating_windows\1 only_render_image_at_cursor\1\27download_remote_images\2\25clear_in_insert_mode\1\1\0\t$tmux_show_only_in_active_window\1$editor_only_render_when_focused\1\17integrations\0\14processor\15magick_cli\fbackend\nkitty#window_overlap_clear_ft_ignore\0!window_overlap_clear_enabled\1!max_height_window_percentage\0032\25hijack_file_patterns\0\nsetup\nimage\frequire\0", "config", "image.nvim")
+time([[Config for image.nvim]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
 vim.cmd [[ packadd nvim-treesitter ]]

@@ -4,7 +4,14 @@ require('nightfox').setup({
             comments = "italic",
             keywords = "bold",
             types = "italic,bold",
-        }
+        },
+        colorblind = {
+            enable = true;
+            severity = {
+                protan = 0.3,
+                deutan = 0.6,
+            },
+        },
     }
 })
 
